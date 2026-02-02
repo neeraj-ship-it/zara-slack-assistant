@@ -252,24 +252,3 @@ if __name__ == '__main__':
 ```
 
 ---
-
-## 📄 **FILE 2: `requirements.txt`**
-```
-flask==3.0.0
-slack-sdk==3.26.1
-anthropic==0.18.1
-gunicorn==21.2.0
-```
-
----
-
-## 📄 **FILE 3: `Procfile`**
-```
-web: gunicorn bot:app
-```
-
----
-
-## 📄 **FILE 4: `runtime.txt`**
-```
-python-3.11.7
